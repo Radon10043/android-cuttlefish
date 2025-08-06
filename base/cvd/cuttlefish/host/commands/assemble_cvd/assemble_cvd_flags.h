@@ -93,8 +93,6 @@ DECLARE_vec(enable_virtiofs);
 
 DECLARE_string(seccomp_policy_dir);
 
-DECLARE_vec(start_webrtc);
-
 DECLARE_vec(webrtc_assets_dir);
 
 DECLARE_bool(start_webrtc_sig_server);
@@ -235,8 +233,6 @@ DECLARE_string(vvmtruststore_path);
 
 DECLARE_string(default_target_zip);
 DECLARE_string(system_target_zip);
-
-DECLARE_string(android_efi_loader);
 
 DECLARE_string(linux_kernel_path);
 DECLARE_string(linux_initramfs_path);
